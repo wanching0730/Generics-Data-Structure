@@ -6,7 +6,7 @@ public class LowerBoundWildCard {
         stack2.push(2);
         stack1.push("Sun");
         add(stack1, stack2);
-        AnyWildCardDemo.print(stack2);
+        AnyWildCard.print(stack2);
     }
 
     public static <T> void add(GenericStack<T> stack1,
