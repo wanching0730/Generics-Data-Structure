@@ -1,3 +1,5 @@
+package WildCard;
+
 public class AnyWildCard {
     public static void main(String[] args ) {
         GenericStack<Integer> intStack = new GenericStack<Integer>();

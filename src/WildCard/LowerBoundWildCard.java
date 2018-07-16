@@ -1,3 +1,7 @@
+package WildCard;
+
+import WildCard.AnyWildCard;
+
 public class LowerBoundWildCard {
     public static void main(String[] args) {
         GenericStack<String> stack1 = new GenericStack<String>();
