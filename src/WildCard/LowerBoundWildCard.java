@@ -13,6 +13,7 @@ public class LowerBoundWildCard {
         AnyWildCard.print(stack2);
     }
 
+    // public static <T> void add(GenericStack<? extends T> stack1, GenericStack<T> stack2)
     public static <T> void add(GenericStack<T> stack1,
                                GenericStack<? super T> stack2) {
         while (!stack1.isEmpty())
